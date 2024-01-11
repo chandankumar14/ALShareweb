@@ -1,0 +1,49 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    text-align: justify;
+  }
+nav {
+    background-color: #9f3e3e;
+  }
+  
+  .ul_menu {
+    list-style: none;
+    display: flex;
+    justify-content:end;
+    height: 60px;
+    padding: 10px 0;
+  }
+  
+  .li_list {
+    margin: 5 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  .menu{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    height: 60px;
+  }
+  .color_code{
+    color: rgb(89, 89, 89);
+  }
+  
+  .color_code2{
+    color: rgb(48, 48, 241);
+  }
